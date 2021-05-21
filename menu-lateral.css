@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ico-menu {
+    margin: 40px 50px;
+    position: relative;
+    z-index: 10;
+    
+}
+
+.ico-menu img {
+    position: fixed;
+    top: 167px;
+    left: 10px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.cont-menu {
+    background-color: rgb(42, 42, 42);
+    box-shadow: 0px 0px 5px 2px rgb(66, 66,66);
+    width: 400px;
+    height: 55px;
+    position: fixed;
+    top: 166px;
+    left: 0px;
+    transition: all .5s ease;
+}
+
+.cont-menu ul {
+    padding: 60px 0px 0px 0px;
+    list-style: none;
+    background-color: gray;
+    box-shadow: green 2px 0 5px 2px;
+}
+
+.cont-menu ul li {
+    color: white;
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+
+.cont-menu ul li:hover {
+    background-color: white;
+    color: black;
+}
+
+.active {
+    transform: translate(-600px);
+}
+
+.opacity {
+    background-color: rgba(39, 38, 38, 0.726);
+    transition: all .5s ease;
+}
